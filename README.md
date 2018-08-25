@@ -1,5 +1,8 @@
-# NativePayload_ICMP
+# NativePayload_ICMP v1.0
 C# code Published by Damon Mohammadbagher
+
+Article step by step : https://www.peerlyst.com/posts/transfer-download-payload-by-icmpv4-traffic-via-ttl-damon-mohammadbagher
+
 
 NativePayload_ICMP : transfer Backdoor Payloads by ICMPv4 Traffic and bypassing Anti-Viruses
 
@@ -45,3 +48,17 @@ Meterpreter Payload is 510 bytes
  
 </summary>
 
+# NativePayload_ICMP v2.0
+
+"NativePayload_ICMP.exe" v2.0 C# Code and Shell Script "NativePayload_ICMP.sh" v1.0 Released for Ebook. (May 2018 , bug fixed).
+
+    NativePayload_ICMP.exe v2.0 syntax: 
+    NativePayload_ICMP.exe help
+
+    NativePayload_ICMP.sh v1.0 syntax: 
+    step0 Client-Side with ipv4 w.x.y.z , syntax :./NativePayload_ICMP.sh shtext "your text or string"
+    step1 Server-Side with ipv4 w1.x1.y1.z1 syntax :./NativePayload_ICMP.sh listen "w.x.y.z"
+    Note: in step1 you should use Client-side system w.x.y.z IPv4Address
+    help syntax : ./NativePayload_ICMP.sh help
+
+Download  "NativePayload_ICMP.exe" v2.0 C# Code and Shell Script "NativePayload_ICMP.sh" v1.0 here : https://github.com/DamonMohammadbagher/NativePayload_ICMP/tree/master/EBOOK
